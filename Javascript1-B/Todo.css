@@ -1,0 +1,145 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+ }
+ ::selection{
+   color: #ffff;
+   background: rgb(142, 73, 232);
+ }
+ body{
+   width: 100%;
+   height: 100vh;
+   
+   background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+ }
+ 
+ 
+ 
+ 
+  .heading {
+   display: flex;
+   align-items: start;
+ 
+  }
+ 
+ 
+ .p1 {
+     color:rgb(156, 7, 7)!important;
+    
+    
+ }
+  .deleteAllBtn{
+   padding: 6px 10px;
+   border-radius: 3px;
+   border: none;
+   outline: none;
+   color: #fff;
+   font-weight: 400;
+   font-size: 16px;
+   margin-left: 5px;
+   background: #4e084e;
+   cursor: pointer;
+   user-select: none;
+   opacity: 1;
+   transition: all 0.5s ease;
+ }
+  .deleteAllBtn.active{
+   opacity: 1;
+   pointer-events: auto;
+ }
+ 
+ 
+ 
+ 
+  .deleteAllBtn {background-image: linear-gradient(to right, #EF3B36 0%, #f1f0f0  51%, #EF3B36  100%)}
+ .deleteAllBtn{
+    margin-left: -5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px rgb(124, 123, 123);
+    border-radius: 10px;
+    display: block;
+  }
+ 
+  .deleteAllBtn:hover {
+    background-position: right center; 
+    color: rgb(104, 102, 102);
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgb(119, 119, 119);
+ 
+  }
+ 
+ 
+ 
+  
+  .btn-grad {background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%)}
+  .btn-grad {
+     margin: 5px;
+     padding: 10px 20px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+     outline: none;
+     font-size: 0.8rem;
+     border:none;
+     
+   }
+   
+   .btn-grad:hover {
+     background-position: right center; 
+     color: #fff;
+     text-decoration: none;
+     border:none;
+     box-shadow: 0 5px 10px rgb(92, 92, 92);
+   }
+  
+ 
+   .card1{
+       background-color: white;
+         width: 100%;
+         max-width: 100%;
+         margin-top: 2rem!important;
+       
+   }
+ 
+   .card1:hover {
+       box-shadow: 5px 4px 5px 0 gray;
+       border-left-color: rgb(104, 102, 102);
+       
+   }
+ 
+ 
+ 
+ 
+   
+   .btn-add {background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)}
+   .btn-add{
+     
+      padding: 5.5px 45px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;            
+      border-radius: 10px;
+      display: block;
+    }
+ 
+    .btn-add:hover {
+      background-position: right center; 
+      color: #fff;
+      text-decoration: none;
+    }
+   
