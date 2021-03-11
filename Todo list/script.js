@@ -4,6 +4,8 @@
 
 
 
+
+
  const p = document.querySelector ('#p');
  const form = document.querySelector('#Form');
  const input = document.querySelector('#addInput');
@@ -80,16 +82,16 @@ const newTodo = (todo) => {
     button2.classList.add('btn-grad', 'me-5',)
     button2.innerText = 'Done'
    
-    button2.addEventListener('dblclick', function() {
+    button2.addEventListener('click', function() {
     
         
          heading.style.textDecoration = 'line-through'
          button2.classList.add('btn-dark')
          button2.innerText = 'undo'
-          console.log('aaaa')
+        //   console.log('aaaa')
       
    })
-   button2.addEventListener('click', function() {
+   button2.addEventListener('dblclick', function() {
        
     button2.innerText = 'Done'
     heading.style.textDecoration = 'none'
@@ -138,7 +140,7 @@ const createTodo = (title) => {
           ...data,
           id:Date.now().toString(),
       }
-    //   console.log(newTodo);
+      
       todos.unshift(newTodo);
       listTodos();
   })

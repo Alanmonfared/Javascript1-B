@@ -116,7 +116,7 @@
  
    .card1:hover {
        box-shadow: 5px 4px 5px 0 gray;
-       border-left-color: rgb(104, 102, 102);
+      border-left: 3px solid black;
        
    }
  
